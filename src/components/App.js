@@ -11,7 +11,7 @@ class App extends React.Component {
     order: {}
   };
   addFish = fish => {
-    // 1. Take a copy of the exsiting state
+    // 1. Take a copy of the existing state
     const fishes = { ...this.state.fishes };
     // 2. Add our new fish to that fishes variable
     fishes[`fish${Date.now()}`] = fish;
@@ -48,7 +48,7 @@ class App extends React.Component {
             ))}
           </ul>
         </div>
-        <Order />
+        <Order fishes={this.state.fishes} order={this.state.order} />
         <Inventory
           addFish={this.addFish}
           loadSampleFishes={this.loadSampleFishes}
