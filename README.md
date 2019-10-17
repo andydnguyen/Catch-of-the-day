@@ -2,6 +2,10 @@
 
 ![Screenshot](/public/images/screenshot.png)
 
+| NOTE: |
+| :--- |
+| Work in progress |
+
 ## Installation
 
 For this application you'll need a [Firebase](https://firebase.google.com/) account and database.
