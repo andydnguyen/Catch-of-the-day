@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { getFunName } from '../helpers';
 
 class StorePicker extends React.Component {
   static propTypes = {
@@ -25,7 +24,6 @@ class StorePicker extends React.Component {
           ref={this.myInput}
           required
           placeholder='Store Name'
-          defaultValue={getFunName()}
         />
         <button type='submit'>Visit Store →</button>
       </form>
